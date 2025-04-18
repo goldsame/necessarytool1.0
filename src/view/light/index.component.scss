@@ -1,16 +1,19 @@
 @media (max-width: 1280px) {
   .index-wrapper {
-    --width: 800px;
+    // 注释掉这行，防止它覆盖我们的宽度设置
+    // --width: 800px;
     --sideImagesWidth: 200px;
   }
   .index-wrapper.noimg {
-    --width: 1000px;
+    // 注释掉这行，防止它覆盖我们的宽度设置
+    // --width: 1000px;
   }
 }
 
 @media (max-width: 1080px) {
   .index-wrapper {
-    --width: 800px !important;
+    // 注释掉这行，防止它覆盖我们的宽度设置
+    // --width: 800px !important;
   }
   .app-side {
     display: none;
@@ -42,6 +45,8 @@
     margin: 0 auto;
     column-gap: 20px;
     overflow: hidden;
+    // 添加这一行，让 light-box 占据100%宽度
+    width: 100%;
   }
   .component-box {
     width: 320px;
@@ -51,7 +56,11 @@
 }
 
 .homepage {
-  width: var(--width, 1000px);
+  // 修改宽度为80%，并设置最大宽度
+  width: 80%;
+  max-width: 1400px;
+  // 不使用 var(--width) 变量
+  // width: var(--width, 1000px);
   height: 100%;
   position: relative;
   background: #f9f9f9;
@@ -59,6 +68,8 @@
   overflow: hidden;
   transition: 0.1s linear;
   border: 1px solid transparent;
+  // 添加左右边距使其居中
+  margin: 0 auto;
 
   .top-nav {
     padding: 10px 0;
