@@ -8,10 +8,10 @@
 # 免责声明：使用即表示已阅读 https://official.nav3.cn/disclaimers
 
 # 仓库地址，填写 Fork 后的仓库地址，支持 Gitee / GitHub / GitLab
-gitRepoUrl: https://github.com/goldsame/necessarytool1.0
+gitRepoUrl: git库链接: https://github.com/goldsame/necessarytool1.0://github.com/goldsame/necessarytool1.0
 
 # Fork 部署分支
-branch: main
+branch: 分支：主要
 
 # 默认Fork仓库
 # 仓库必须自己提前创建，如果打算长期使用本软件，建议每个人都创建一个新的仓库作为图片存储
@@ -20,13 +20,13 @@ branch: main
 imageRepoUrl: ''
 
 # 只有GitHub pages用户需要设置为true， 其他建议设置为 false
-hashMode: false
+hashMode: true
 
 # 一旦填写认为你是自有部署，Fork 不要填写
 address: ''
 
 # 自有部署后台登录密码
-password: admin
+password: 密码：admin
 
 # 自有部署启动端口
 port: 7777
@@ -36,14 +36,14 @@ email: ''
 
 # 自有部署邮件通知系统
 mailConfig:
-  host: smtp.mxhichina.com
+  host:   主机: smtp.mxhichina.com
   port: 465
   secure: true
   auth:
     user: ''
     pass: ''
-  title: 网站收录通知
-  message: 有用户提交网站收录啦
+  title:   标题：网站收录通知
+  message:   消息：有用户提交网站收录啦
 
 # 自有部署
 XFAPIPassword: ''
